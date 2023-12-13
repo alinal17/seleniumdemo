@@ -10,5 +10,18 @@
   "license": "ISC",
   "dependencies": {
     "selenium-webdriver": "^4.16.0"
-  }
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alinal17/seleniumdemo.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/alinal17/seleniumdemo/issues"
+  },
+  "homepage": "https://github.com/alinal17/seleniumdemo#readme"
 }
