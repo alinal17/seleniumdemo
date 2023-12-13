@@ -56,5 +56,15 @@ async function testSearch() {
   }
 }
 
+async function testSearch2() {
+  let driver = await new Builder().forBrowser("chrome").build();
+
+  await driver.get("https://google.ro/");
+  setTimeout(async function () {
+    console.log("second test passed");
+    await driver.quit();
+  }, 5000);
+}
 // Run the test
 testSearch();
+testSearch2();
